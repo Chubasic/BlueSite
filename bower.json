@@ -1,11 +1,11 @@
 {
-  "name": "Start Template",
+  "name": "start template",
   "version": "1.0.0",
   "homepage": "",
   "authors": [
     ""
   ],
-  "description": "Clean task runner",
+  "description": "clean task runner",
   "moduleType": [
     "globals"
   ],
