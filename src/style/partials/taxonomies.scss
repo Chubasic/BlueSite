@@ -1,0 +1,25 @@
+body{
+  @include font(15px,$textHeaderPrimary,400,$font-regular);
+  max-width: 1920px;
+  min-width: 320px;
+}
+
+h1{
+  @include font(36px,$textHeaderPrimary,700,$font-bold);
+  text-transform: uppercase;
+}
+
+.bgDarken{
+  background-color: $bgColorPrimaryDark;
+}
+.bgLiten{
+  background-color: $bgColorPrimaryLight;
+}
+
+@function convertToEm($px, $context: 16px){
+  @return ($px / $context) * 1em;
+}
+
+@function convertToRem($px, $context: 16px){
+  @return ($px / $context) * 1rem;
+}

@@ -1,0 +1,72 @@
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('/fonts/fontawesome/fontawesome-webfont.eot?#iefix') format('embedded-opentype'),
+  url('/fonts/fontawesome/fontawesome-webfont.woff') format('woff'),
+  url('/fonts/fontawesome/fontawesome-webfont.ttf')  format('truetype'),
+  url('/fonts/fontawesome/fontawesome-webfont.svg#fontawesome-webfont') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'montserratbold';
+  src: url('/fonts/bold/montserrat-bold-webfont.eot');
+  src: url('/fonts/bold/montserrat-bold-webfont.eot?#iefix') format('embedded-opentype'),
+  url('/fonts/bold/montserrat-bold-webfont.woff2') format('woff2'),
+  url('/fonts/bold/montserrat-bold-webfont.woff') format('woff'),
+  url('/fonts/bold/montserrat-bold-webfont.svg#montserratbold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'montserratlight';
+  src: url('/fonts/light/montserrat-light-webfont.eot');
+  src: url('/fonts/light/montserrat-light-webfont.eot?#iefix') format('embedded-opentype'),
+  url('/fonts/light/montserrat-light-webfont.woff2') format('woff2'),
+  url('/fonts/light/montserrat-light-webfont.woff') format('woff'),
+  url('/fonts/light/montserrat-light-webfont.svg#montserratlight') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'montserratregular';
+  src: url('/fonts/regular/montserrat-regular-webfont.eot');
+  src: url('/fonts/regular/montserrat-regular-webfont.eot?#iefix') format('embedded-opentype'),
+  url('/fonts/regular/montserrat-regular-webfont.woff2') format('woff2'),
+  url('/fonts/regular/montserrat-regular-webfont.woff') format('woff'),
+  url('/fonts/regular/montserrat-regular-webfont.ttf') format('truetype'),
+  url('/fonts/regular/montserrat-regular-webfont.svg#montserratregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'montserratsemi_bold';
+  src: url('/fonts/semibold/montserrat-semibold-webfont.eot');
+  src: url('/fonts/semibold/montserrat-semibold-webfont.eot?#iefix') format('embedded-opentype'),
+  url('/fonts/semibold/montserrat-semibold-webfont.woff2') format('woff2'),
+  url('/fonts/semibold/montserrat-semibold-webfont.woff') format('woff'),
+  url('/fonts/semibold/montserrat-semibold-webfont.ttf') format('truetype'),
+  url('/fonts/semibold/montserrat-semibold-webfont.svg#montserratsemi_bold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+$font-bold: 'montserratbold', sans-serif;
+$font-light: 'montserratlight', sans-serif;
+$font-regular: 'montserratregular', sans-serif;
+$font-semi-bold: 'montserratsemi_bold', sans-serif;
+$font-awesome: FontAwesome;
+
+@mixin font ($font-size:14px,$color:$textPrimary,$font-weight:400,$font-family:$font-regular) {
+  font-size: $font-size;
+  color: $color;
+  font-weight: $font-weight;
+  font-family: $font-family;
+}

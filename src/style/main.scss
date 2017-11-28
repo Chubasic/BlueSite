@@ -1,0 +1,26 @@
+/*
+* Third Party
+*/
+@import "../../bower_components/materialize/dist/css/materialize.min.css";
+
+
+/*
+* Custom
+*/
+@import "partials/variable";
+@import "partials/colors";
+@import "partials/fonts";
+@import "partials/taxonomies";
+@import "partials/media";
+
+
+
+
+@import "views/header";
+@import "views/home";
+@import "views/footer";
+
+
+
+
+

@@ -1,0 +1,17 @@
+{
+  "name": "Start Template",
+  "version": "1.0.0",
+  "homepage": "",
+  "authors": [
+    ""
+  ],
+  "description": "Clean task runner",
+  "moduleType": [
+    "globals"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "jquery": "^3.2.1",
+    "materialize": "^0.100.2"
+  }
+}
