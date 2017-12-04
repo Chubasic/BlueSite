@@ -4,50 +4,51 @@ $bgColorPrimaryLight: #86ea8f;
 $secondaryColor: #e84c3d;
 
 $textHeaderPrimary: #003300;
-$textPrimary: #777777;
-$textSecondary: #fff;
+$textPrimary: #777777;*/
 
-$bgColorFooter: #4e4e4e;
+$textSecondary: #ffff;
+
+/*$bgColorFooter: #4e4e4e;
 $itemColor1: #666666;*/
 
 //primary colors
-$p1: #09a912;
+$p1: #03a9f4;
 $p2: #f75e2e;
 $p3: #ecfa4d;
 $p4: #656a70;
 //lighten
 
-$p1l1: lighten($p1, 10%);
-$p1l2: lighten($p1, 30%);
-$p1l3: lighten($p1, 80%);
+$p1l1: lighten($p1, 30%);
+$p1l2: lighten($p1, 40%);
+$p1l3: lighten($p1, 50%);
 //p1
-$p2l1: lighten($p2, 10%);
-$p2l2: lighten($p2, 30%);
-$p2l3: lighten($p2, 80%);
+$p2l1: lighten($p2, 30%);
+$p2l2: lighten($p2, 40%);
+$p2l3: lighten($p2, 50%);
 //p2
-$p3l1: lighten($p3, 10%);
-$p3l2: lighten($p3, 30%);
-$p3l3: lighten($p3, 80%);
+$p3l1: lighten($p3, 30%);
+$p3l2: lighten($p3, 40%);
+$p3l3: lighten($p3, 50%);
 //p3
-$p4l1: lighten($p4, 10%);
-$p4l2: lighten($p4, 30%);
-$p4l3: lighten($p4, 80%);
+$p4l1: lighten($p4, 30%);
+$p4l2: lighten($p4, 40%);
+$p4l3: lighten($p4, 50%);
 //p4
 
 //darken
 $p1d1: darken($p1, 10%);
-$p1d1: darken($p1, 10%);
-$p1d1: darken($p1, 10%);
+$p1d2: darken($p1, 20%);
+$p1d3: darken($p1, 30%);
 //p1
-$p2d1: darken($p1, 10%);
-$p2d2: darken($p1, 10%);
-$p2d3: darken($p1, 10%);
+$p2d1: darken($p1, 30%);
+$p2d2: darken($p1, 40%);
+$p2d3: darken($p1, 50%);
 //p2
-$p3d1: darken($p1, 10%);
-$p3d2: darken($p1, 10%);
-$p3d3: darken($p1, 10%);
+$p3d1: darken($p1, 30%);
+$p3d2: darken($p1, 40%);
+$p3d3: darken($p1, 50%);
 //p3
-$p4d1: darken($p1, 10%);
-$p4d2: darken($p1, 10%);
-$p4d3: darken($p1, 10%);
+$p4d1: darken($p1, 30%);
+$p4d2: darken($p1, 40%);
+$p4d3: darken($p1, 50%);
 //p4

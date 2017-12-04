@@ -1,0 +1,14 @@
+@mixin button($font-color:$textSecondary, $bg-color:$p4, $font-family: $f-regular){
+  color: $font-color;
+  background-color: $bg-color;
+  font-family: $font-family;
+}
+
+
+.orange-btn{
+  @include button($textSecondary, $p2, $f-poppinssemibold);
+}
+
+.blue-btn{
+  @include button($textSecondary, $p1d1, $f-poppinssemibold);
+}

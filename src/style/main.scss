@@ -2,7 +2,7 @@
 * Third Party
 */
 @import "../../bower_components/materialize/dist/css/materialize.min.css";
-/*@import "../../bower_components/components-font-awesome/css/font-awesome.css";*/
+@import "../../bower_components/components-font-awesome/css/font-awesome.css";
 /*gulp-task?*/
 /*
 * Custom
@@ -12,11 +12,13 @@
 @import "partials/fonts";
 @import "partials/taxonomies";
 @import "partials/media";
+@import "partials/buttons";
 
 
 
 
 @import "views/header";
+@import "views/navbar";
 @import "views/home";
 @import "views/footer";
 

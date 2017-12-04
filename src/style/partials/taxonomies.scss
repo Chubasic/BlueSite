@@ -1,4 +1,4 @@
-body{
+/*body{
   @include font(15px,$textHeaderPrimary,400,$font-regular);
   max-width: 1920px;
   min-width: 320px;
@@ -7,14 +7,17 @@ body{
 h1{
   @include font(36px,$textHeaderPrimary,700,$font-bold);
   text-transform: uppercase;
-}
+}*/
 
+/*
 .bgDarken{
   background-color: $bgColorPrimaryDark;
 }
 .bgLiten{
   background-color: $bgColorPrimaryLight;
 }
+*/
+
 
 @function convertToEm($px, $context: 16px){
   @return ($px / $context) * 1em;
@@ -23,3 +26,27 @@ h1{
 @function convertToRem($px, $context: 16px){
   @return ($px / $context) * 1rem;
 }
+.bgMain{
+  background-color: $p1;//colors.scss
+}
+
+
+//navbar.scss
+.logo-text{
+  @include font(20px, $textSecondary, 400, $f-poppinsligth);
+  vertical-align: -10px;
+  .b-text{
+    @include font(26px, $p3, 400, $f-poppinsbold);
+    text-transform: uppercase;
+  }
+  .l-text{
+    @include font(13px, $textSecondary, 300, $f-poppinsligth);
+  }
+}
+.d-text{
+  @include font(13px, $textSecondary, 400, $f-regular);
+  line-height: 30px;
+  letter-spacing: 0.26px;
+  vertical-align: 10px;
+}
+//end
