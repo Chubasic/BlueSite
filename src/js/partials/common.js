@@ -4,7 +4,9 @@ console.log("common.js");
 $( document ).ready(function (){
     $(".button-collapse").sideNav();
 })
-
+$(document).ready(function () {
+    $(".button-collapse-xl").sideNav();
+})
 
 
 /*Pure JS*/
