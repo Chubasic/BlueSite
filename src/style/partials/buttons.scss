@@ -4,11 +4,35 @@
   font-family: $font-family;
 }
 
+
+
 //Change classes
-.orange-btn{
+.btn-type-warning{
   @include button($textSecondary, $p2, $f-poppinssemibold);
+  &:hover{
+    background-color: $p2l2;
+  }
 }
 
-.blue-btn{
+.btn-type-default{
   @include button($textSecondary, $p1d1, $f-poppinssemibold);
+  &:hover{
+    background-color: $p1l2;
+  }
+}
+
+
+.nav-buttons{
+  padding-top: 20px;
+  margin-left: 10px;
+  text-transform: uppercase;
+  @include font(13px, $textSecondary,300, $f-poppinssemibold);
+  button{
+    margin-bottom: 20px;
+  }
+}
+
+.nav-dropdowns a{
+  padding: 20px 4px !important;
+  @include font(13px, $textSecondary,300, $f-poppinssemibold);
 }

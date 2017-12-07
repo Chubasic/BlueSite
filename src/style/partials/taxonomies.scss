@@ -1,22 +1,20 @@
-/*body{
-  @include font(15px,$textHeaderPrimary,400,$font-regular);
+body{
+  @include font(15px,$p4d3,400,$f-textHeader);
   max-width: 1920px;
   min-width: 320px;
 }
 
 h1{
-  @include font(36px,$textHeaderPrimary,700,$font-bold);
-  text-transform: uppercase;
-}*/
+  @include font(34px,$p1,700,$f-poppinsbold);
+}
 
-/*
-.bgDarken{
+
+/*.bgDarken{
   background-color: $bgColorPrimaryDark;
 }
 .bgLiten{
   background-color: $bgColorPrimaryLight;
-}
-*/
+}*/
 
 
 @function convertToEm($px, $context: 16px){
@@ -30,6 +28,13 @@ h1{
   background-color: $p1;//colors.scss
 }
 
+li > a{
+  @include font(16px, $p4d1, 300, $f-poppinssemibold);
+}
+
+.dropdown-content li > a{
+  @include font(16px, $p4d1, 300, $f-poppinssemibold);
+}
 
 //navbar.scss
 .logo-text{
@@ -49,4 +54,5 @@ h1{
   letter-spacing: 0.26px;
   vertical-align: 10px;
 }
+
 //end

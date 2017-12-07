@@ -1,12 +1,9 @@
 /*$bgColorPrimaryDark: #14a85c;
-$bgColorPrimaryLight: #86ea8f;
+
 
 $secondaryColor: #e84c3d;
+*/
 
-$textHeaderPrimary: #003300;
-$textPrimary: #777777;*/
-
-$textSecondary: #ffff;
 
 /*$bgColorFooter: #4e4e4e;
 $itemColor1: #666666;*/
@@ -20,7 +17,7 @@ $p4: #656a70;
 
 $p1l1: lighten($p1, 10%);
 $p1l2: lighten($p1, 20%);
-$p1l3: lighten($p1, 30%);
+$p1l3: lighten($p1, 50%);
 //p1
 $p2l1: lighten($p2, 10%);
 $p2l2: lighten($p2, 20%);
@@ -38,19 +35,25 @@ $p4l3: lighten($p4, 30%);
 //L407590 D205070
 
 //darken
-$p1d1: darken($p1, 20%);
+$p1d1: darken($p1, 10%);
 $p1d2: darken($p1, 20%);
 $p1d3: darken($p1, 30%);
 //p1
-$p2d1: darken($p1, 10%);
-$p2d2: darken($p1, 20%);
-$p2d3: darken($p1, 30%);
+$p2d1: darken($p2, 10%);
+$p2d2: darken($p2, 20%);
+$p2d3: darken($p2, 30%);
 //p2
-$p3d1: darken($p1, 10%);
-$p3d2: darken($p1, 20%);
-$p3d3: darken($p1, 30%);
+$p3d1: darken($p3, 10%);
+$p3d2: darken($p3, 20%);
+$p3d3: darken($p3, 30%);
 //p3
-$p4d1: darken($p1, 10%);
-$p4d2: darken($p1, 20%);
-$p4d3: darken($p1, 30%);
+$p4d1: darken($p4, 10%);
+$p4d2: darken($p4, 20%);
+$p4d3: darken($p4, 30%);
 //p4
+
+$bgColorPrimaryLight: $p1l3;
+$textHeaderPrimary: $p4d2;
+$textPrimary: #777777;
+
+$textSecondary: #ffff;

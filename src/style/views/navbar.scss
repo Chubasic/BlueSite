@@ -6,11 +6,13 @@
     height: 62px;
     background-image: url("../../img/logo.png");
   }
-  .nav-buttons{
-    padding-top: 20px;
-    margin-left: 5px;
-    li{
-      @include font(13px, $textSecondary,400, $f-poppinssemibold);
+  .nav-href{
+    margin-right: 10px;
+    .nav-ico{
+      font-size: 25px;
+      border: solid 2px white;
+      border-radius: 50%;
+      display: inherit;
     }
   }
 }

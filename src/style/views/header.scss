@@ -1,0 +1,21 @@
+.header{
+  background-color: $bgColorPrimaryLight;
+  background-image: url("../../img/img_girl.png"), url("../../img/shadow.png"), url("../../img/city_left.png"),
+url("../../img/city-center.png"), url("../../img/city-right.png"), url("../../img/cloud_one.png"),
+  url("../../img/cloud-two.png");
+  background-repeat: no-repeat;
+  p{
+    color: $p4d3;
+  }
+  .line:after{
+    width: 100px;
+    height: 20px;
+    content: " ";
+    border-bottom: solid 1px $p4d3;
+  }
+  .header-span {
+    width: 50%;
+    display: block;
+    @include font(18px, $p4d3, 400, $f-textHeader);
+  }
+}
