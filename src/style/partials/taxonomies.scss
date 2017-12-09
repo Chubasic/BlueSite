@@ -8,6 +8,13 @@ h1{
   @include font(34px,$p1,700,$f-poppinsbold);
 }
 
+label{
+  @include font(13px,$textSecondary,500, $f-textLabel);
+}
+
+option{
+  @include font(13px, $p4l1, 400, $f-textHeader);
+}
 
 /*.bgDarken{
   background-color: $bgColorPrimaryDark;
@@ -56,3 +63,9 @@ li > a{
 }
 
 //end
+
+
+
+@mixin margin-top($move-up:20px){
+  margin-top: $move-up;
+}

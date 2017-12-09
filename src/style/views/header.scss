@@ -1,9 +1,11 @@
 .header{
   background-color: $bgColorPrimaryLight;
-  background-image: url("../../img/img_girl.png"), url("../../img/shadow.png"), url("../../img/city_left.png"),
+  background-image: url("../../img/img_girl all.png");/*, url("../../img/shadow.png"), url("../../img/city_left.png"),
 url("../../img/city-center.png"), url("../../img/city-right.png"), url("../../img/cloud_one.png"),
-  url("../../img/cloud-two.png");
+  url("../../img/cloud-two.png")*/;
   background-repeat: no-repeat;
+  background-size: 1400px 400px;
+  height: 399px;
   p{
     color: $p4d3;
   }
@@ -17,5 +19,27 @@ url("../../img/city-center.png"), url("../../img/city-right.png"), url("../../im
     width: 50%;
     display: block;
     @include font(18px, $p4d3, 400, $f-textHeader);
+  }
+}
+.order-maker{
+  margin-top: -55px;
+  margin-top: -55px;
+  .counter{
+    display: inline-flex;
+    & a{
+      background-color: white;
+      height: 47px;
+      i{
+        padding-top: 10px;
+        color: $p4;
+      }
+    }
+
+    & input{
+      border: solid 1px #d9dbdc;
+      background-color: white;
+      text-align: center;
+      color: $p4;
+    }
   }
 }

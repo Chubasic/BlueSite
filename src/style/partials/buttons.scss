@@ -8,19 +8,35 @@
 
 //Change classes
 .btn-type-warning{
-  @include button($textSecondary, $p2, $f-poppinssemibold);
+  @include button($textSecondary, $p2, $f-poppinssemibold !important);
   &:hover{
     background-color: $p2l2;
   }
+  &:focus{
+    background-color: $p2;
+}
 }
 
 .btn-type-default{
-  @include button($textSecondary, $p1d1, $f-poppinssemibold);
+  @include button($textSecondary, $p1d1, $f-poppinssemibold !important);
   &:hover{
     background-color: $p1l2;
   }
+  &:focus{
+    background-color: $p1d1;
+  }
 }
 
+.btn-type-default-long{
+  @include button($textSecondary, $p1d1, $f-poppinssemibold !important);
+  padding: 0 4rem;
+  &:hover{
+    background-color: $p1l2;
+  }
+  &:focus{
+    background-color: $p1d1;
+  }
+}
 
 .nav-buttons{
   padding-top: 20px;
@@ -35,4 +51,9 @@
 .nav-dropdowns a{
   padding: 20px 4px !important;
   @include font(13px, $textSecondary,300, $f-poppinssemibold);
+}
+
+
+.up-cls{
+  @include margin-top(25px);
 }
