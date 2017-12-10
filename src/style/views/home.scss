@@ -1,0 +1,44 @@
+.homepage{
+  .adnvantages{
+    text-align: center;
+    & h2{
+      padding-top: 95px;
+      color: $textSecondary;
+    }
+    & h4 {
+      @include font(16px, $p4d1, 500, $f-textLabel);
+    }
+    .services{
+      padding-top: 89px;
+      padding-left: 120px;
+      & > div {
+        background-color: $textSecondary;
+        margin-left: 19px;
+        img{
+          padding-top: 25px;
+        }
+      }
+    }
+    .adnvan-button{
+      padding-top: 55px;
+    }
+  }
+
+  .four-steps{
+    text-align: center;
+    .steps{
+      padding-top: 95px;
+    }
+  }
+
+  .discount{
+    text-align: center;
+    .img-baloon{
+      height: 200px;
+      text-align: left;
+      & img{
+        height: 300px;
+      }
+    }
+  }
+}
