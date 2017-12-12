@@ -48,9 +48,12 @@
   }
 }
 
-.nav-dropdowns a{
-  padding: 20px 4px !important;
-  @include font(13px, $textSecondary,300, $f-poppinssemibold);
+.nav-dropdowns {
+  padding-left: auto;
+  & a {
+    padding: 20px 4px !important;
+    @include font(13px, $textSecondary, 300, $f-poppinssemibold);
+  }
 }
 
 
