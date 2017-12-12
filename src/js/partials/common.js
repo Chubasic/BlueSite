@@ -13,3 +13,19 @@ $('.carousel.carousel-slider').carousel({fullWidth: true});
 
 
 /*Pure JS*/
+var counter = 1;
+
+function add(){
+    counter++;
+    document.getElementById('counter-field').value = counter;
+}
+
+function sub() {
+    if(counter <= 0){
+        alert('Zero pages?');
+        return;
+    }else {
+        counter--;
+    }
+    document.getElementById('counter-field').value = counter;
+}
