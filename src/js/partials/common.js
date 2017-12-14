@@ -21,7 +21,7 @@ function add(){
 }
 
 function sub() {
-    if(counter <= 0){
+    if(counter <= 1){
         alert('Zero pages?');
         return;
     }else {
