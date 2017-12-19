@@ -1,11 +1,13 @@
+
 .header{
   background-color: $bgColorPrimaryLight;
   background-image: url("../../img/img_girl all.png");/*, url("../../img/shadow.png"), url("../../img/city_left.png"),
 url("../../img/city-center.png"), url("../../img/city-right.png"), url("../../img/cloud_one.png"),
   url("../../img/cloud-two.png")*/;
   background-repeat: no-repeat;
-  background-size: 1400px 400px;
+  background-size: 100% 100% ;
   height: 399px;
+
   p{
     color: $p4d3;
   }
@@ -42,4 +44,48 @@ url("../../img/city-center.png"), url("../../img/city-right.png"), url("../../im
       color: $p4;
     }
   }
+}
+
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+  .header {
+    background-image: url("../../img/city.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+
+  .header {
+    background-image: url("../../img/city.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+
+  .header {
+    background-image: url("../../img/city.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+
+  .header {
+    background-image: url("../../img/city.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+
 }

@@ -39,8 +39,10 @@
 }
 
 .nav-buttons{
-  padding-top: 20px;
+  padding-top: 20px !important;
   margin-left: 10px;
+  padding-right: 0 !important;
+  padding-left: 0 !important;
   text-transform: uppercase;
   @include font(13px, $textSecondary,300, $f-poppinssemibold);
   button{
@@ -50,6 +52,7 @@
 
 .nav-dropdowns {
   padding-left: auto;
+  text-transform: uppercase;
   & a {
     padding: 20px 4px !important;
     @include font(13px, $textSecondary, 300, $f-poppinssemibold);

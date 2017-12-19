@@ -15,29 +15,30 @@
 <nav class="navbar bgMain nav-extended">
     <div class="nav-wrapper">
         <div class="container">
-            <div class="row">
-                <div class="logo col xl4 l4 m4 s4">
+            <div class="row no-marg">
+                <div class="logo col xl2 l2 m6 s8">
                     <img class="responsive-img" src="../img/logo.png" alt="">
                 </div>
                 <a href="#" data-activates="mobile-demo" class="button-collapse right">
                     <i class="material-icons">menu</i>
                 </a>
 
-                <div class="hide-on-med-and-down right nav-buttons">
-                    <a class="button-collapse-xl" href="#!" data-activates="burger-xl">
-                        <i class="material-icons">menu</i>
-                    </a>
-                </div>
-                <div class="hide-on-med-and-down right nav-buttons">
+                <ul class="hide-on-med-and-down  nav-dropdowns col xl5 l6">
+                    <li><a class="nav-service dropdown-button" href="#!" data-activates="dropdown5">Services<i class="material-icons right">arrow_drop_down</i></a></li>
+                    <li><a class="nav-about dropdown-button" href="#!" data-activates="dropdown6">About Us<i class="material-icons right">arrow_drop_down</i></a></li>
+                    <li><a class="nav-hiw" href="">How it works</a></li>
+                </ul>
+                <div class="hide-on-med-and-down  nav-buttons col xl5 l5">
                     <a href="" class="nav-href"><i class="material-icons nav-ico">phone</i></a>
                     <button class="btn-type-default waves-effect waves-default btn">Sign in</button>
                     <button class="btn-type-warning waves-effect waves-orange btn">Order</button>
                 </div>
-                    <ul class="hide-on-med-and-down right nav-dropdowns">
-                        <li><a class="nav-service dropdown-button" href="#!" data-activates="dropdown5">Services<i class="material-icons right">arrow_drop_down</i></a></li>
-                        <li><a class="nav-about dropdown-button" href="#!" data-activates="dropdown6">About Us<i class="material-icons right">arrow_drop_down</i></a></li>
-                        <li><a class="nav-hiw" href="">How it works</a></li>
-                    </ul>
+                <div class="hide-on-med-and-down  nav-buttons">
+                    <a class="button-collapse-xl" href="#!" data-activates="burger-xl">
+                        <i class="material-icons">menu</i>
+                    </a>
+                </div>
+
             </div>
             <!-- Dropdown Structure -->
             <ul id="dropdown1" class="dropdown-content">
@@ -127,7 +128,7 @@
     <div class="container">
         <header>
             <div class="row">
-                <div class="col xl8 l8 m8 s8">
+                <div class="col xl8 l10 m10 s12 ">
                     <!--https://www.youtube.com/watch?v=CBQGl6zokMs-->
                     <h1 class="line animated flipInX">BlueEssaySite.net -
                         <p class="animated flipInY">expert help for custom Written</p>
@@ -143,7 +144,7 @@
 </div>
 <div class="container">
     <div class="row order-maker bgMain">
-        <div class="col xl2">
+        <div class="col xl2 l2 m2 s2">
             <label>Type of paper</label>
             <select class="browser-default">
                 <option value="" disabled selected>Placeholder text</option>
@@ -152,7 +153,7 @@
                 <option value="3">Option 3</option>
             </select>
         </div>
-        <div class="col xl2">
+        <div class="col  xl2 l2 m2 s2">
             <label>High school</label>
             <select class="browser-default">
                 <option value="" disabled selected>High school</option>
@@ -161,7 +162,7 @@
                 <option value="3">Option 3</option>
             </select>
         </div>
-        <div class="col xl2">
+        <div class="col xl2 l2 m2 s2">
             <label>Urgency</label>
             <select class="browser-default">
                 <option value="" disabled selected>21 days</option>
@@ -171,7 +172,7 @@
             </select>
         </div>
 
-        <div class="col xl3  ">
+        <div class="col xl3 l3 m3 s3 ">
             <label for="counter-field">Number of pages</label>
             <div class="counter">
             <a href="#!" id="sub" onclick="sub()"><i class="material-icons">remove</i></a>
@@ -184,8 +185,6 @@
         </div>
     </div>
 </div>
-
-
 
 <main class="homepage">
     <div class="container">
@@ -205,20 +204,22 @@ Our essay and research paper writing services are provided by a large team of ed
         <div class="bg-icons">
             <div class="container">
                 <div class="row adnvantages">
+                    <div class="col xl12 l12 m12 s12">
                     <h2>Advantages of Our Writing Services</h2>
+                    </div>
                     <div class="services row" id="onScroll">
-                        <div class="col xl3 l2 m3 s4  card">
+                        <div class="col xl3 l2 m12 s12  card">
                             <img class="responsive-img" src="../img/banka.png" alt="">
                             <h4>Professionally-qualified
                                 writing experts</h4>
                             <span>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born</span>
                         </div>
-                        <div class="col xl3 l2 m3 s4 card">
+                        <div class="col xl3 l2 m12 s12 card">
                             <img class="responsive-img" src="../img/task.png" alt="">
                             <h4>Commitment to deliver papers by deadline</h4>
                             <span>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born</span>
                         </div>
-                        <div class="col xl3 l2 m3 s4 card">
+                        <div class="col xl3 l2 m12 s12 card">
                             <img class="responsive-img" src="../img/computr.png" alt="">
                             <h4>Top-quality, at a great price - guaranteed</h4>
                             <span>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born</span>
@@ -301,21 +302,33 @@ Our essay and research paper writing services are provided by a large team of ed
     <div class="container">
         <div class="row">
             <div class="carousel carousel-slider center" data-indicators="true">
-                <div class="carousel-item red white-text" href="#one!">
-                    <h2>First Panel</h2>
-                    <p class="white-text">This is your first panel</p>
+                <div class="carousel-item" href="#one!">
+                    <h2>What our clients says</h2>
+                    <img class="ava" src="./../img/ava.png" alt="avatar">
+                    <p>Using BestEssayService.net was possibly the best choice of my academic career. Even though I work full-time, I managed to submit all my assignments on time owing to the broad array of services on offer. No matter what written work I needed, help was available. I would give a full ten marks.
+                    </p>
+                    <small>Lorna Grey</small>
                 </div>
-                <div class="carousel-item amber white-text" href="#two!">
-                    <h2>Second Panel</h2>
-                    <p class="white-text">This is your second panel</p>
+                <div class="carousel-item" href="#two!">
+                    <h2>What our clients says</h2>
+                    <img class="ava" src="./../img/ava.png" alt="avatar">
+                    <p>Using BestEssayService.net was possibly the best choice of my academic career. Even though I work full-time, I managed to submit all my assignments on time owing to the broad array of services on offer. No matter what written work I needed, help was available. I would give a full ten marks.
+                    </p>
+                    <small>Lorna Grey</small>
                 </div>
-                <div class="carousel-item green white-text" href="#three!">
-                    <h2>Third Panel</h2>
-                    <p class="white-text">This is your third panel</p>
+                <div class="carousel-item" href="#three!">
+                    <h2>What our clients saysl</h2>
+                    <img class="ava" src="./../img/ava.png" alt="avatar">
+                    <p>Using BestEssayService.net was possibly the best choice of my academic career. Even though I work full-time, I managed to submit all my assignments on time owing to the broad array of services on offer. No matter what written work I needed, help was available. I would give a full ten marks.
+                    </p>
+                    <small>Lorna Grey</small>
                 </div>
-                <div class="carousel-item blue white-text" href="#four!">
-                    <h2>Fourth Panel</h2>
-                    <p class="white-text">This is your fourth panel</p>
+                <div class="carousel-item" href="#four!">
+                    <h2>What our clients says</h2>
+                    <img class="ava" src="./../img/ava.png" alt="avatar">
+                    <p>Using BestEssayService.net was possibly the best choice of my academic career. Even though I work full-time, I managed to submit all my assignments on time owing to the broad array of services on offer. No matter what written work I needed, help was available. I would give a full ten marks.
+                    </p>
+                    <small>Lorna Grey</small>
                 </div>
             </div>
         </div>
@@ -324,6 +337,15 @@ Our essay and research paper writing services are provided by a large team of ed
     </div>
 </main>
 
+
+
+<footer>
+    <div class="container">
+        <div class="row">
+            <strong>LOL</strong>
+        </div>
+    </div>
+</footer>
 <script src="js/main.js"></script>
 </body>
 </html>
