@@ -1,0 +1,16 @@
+.foo{
+  .foo-line{
+    border-bottom: solid 2px $p1l2;
+  }
+  .foo-nav{
+    li {
+      display: inline-block;
+    }
+  }
+  .foo-sections{
+    h4, span{
+      color: $textSecondary;
+    }
+    border-bottom: solid 2px $p1l2;
+  }
+}

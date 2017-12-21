@@ -25,7 +25,14 @@ body{
   background-image: url("../../img/bg-rocket.png");
   background-repeat: no-repeat;
   background-size: 1400px 400px;
+  -webkit-animation: slide-2 30s linear infinite;
 }
+
+@-webkit-keyframes slide-2 {
+  from { background-position: 0 0; }
+  to { background-position: 0 -400px; }
+}
+
 
 .border{
   border: 0.5px solid $p4l2;
@@ -105,8 +112,7 @@ li > a{
 
 //end
 
-
-
 @mixin margin-top($move-up:20px){
   margin-top: $move-up;
 }
+

@@ -32,6 +32,25 @@
 
   .discount{
     text-align: center;
+    .grid-container{
+      display: grid;
+      grid-template-columns: repeat(2, 250px);
+      align-items: center;
+      justify-content: center;
+      background-color: $textSecondary;
+      .border-r{
+        border-right: solid 1px $p4l2;
+      }
+      .border-bot{
+        border-bottom: solid 1px $p4l2;
+      }
+      .red-txt{
+        color: $textWarning;
+      }
+      .blue-txt{
+        color: $textNote;
+      }
+    }
     .img-baloon{
       height: 200px;
       text-align: left;
