@@ -7,7 +7,7 @@
     "url": "https://macnaer@bitbucket.org/macnaer/start-template-v-0.99.git"
   },
   "dependencies": {
-    "browser-sync": "^2.2.3",
+    "browser-sync": "^2.19.0",
     "gulp": "^3.8.11",
     "gulp-autoprefixer": "^2.1.0",
     "gulp-imagemin": "^2.2.1",
