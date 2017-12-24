@@ -32,12 +32,16 @@
 
   .discount{
     text-align: center;
+    h2{
+      padding-top: 70px;
+    }
     .grid-container{
       display: grid;
       grid-template-columns: repeat(2, 250px);
       align-items: center;
       justify-content: center;
       background-color: $textSecondary;
+      height: 199px;
       .border-r{
         border-right: solid 1px $p4l2;
       }
@@ -54,8 +58,11 @@
     .img-baloon{
       height: 200px;
       text-align: left;
+      padding-right: 0 !important;
+      padding-left: 0 !important;
       & img{
-        height: 300px;
+        height: 100%;
+        width: auto;
       }
     }
   }
@@ -66,6 +73,7 @@
       height: 60px;
     }
   }
+
 
 
 }

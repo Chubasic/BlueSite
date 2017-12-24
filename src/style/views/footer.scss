@@ -1,4 +1,10 @@
 .foo{
+  a{
+    color: $textSecondary;
+    :hover{
+      text-shadow: 2px 2px 4px #000000;
+    }
+  }
   .foo-line{
     border-bottom: solid 2px $p1l2;
   }
@@ -6,11 +12,21 @@
     li {
       display: inline-block;
     }
+    :hover{
+      opacity: 3;
+      background-color: $p1l2;
+    }
   }
   .foo-sections{
     h4, span{
       color: $textSecondary;
     }
     border-bottom: solid 2px $p1l2;
+  }
+  .foo-copy{
+    padding: 10px;
+    i{
+      padding-right: 8px;
+    }
   }
 }

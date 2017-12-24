@@ -9,28 +9,30 @@ body{
 }
 .bg-icons{
   background-image: url("../../img/bg-Icons.png");
-  background-repeat: no-repeat;
+  background-repeat: repeat-x;
   height: 697px;
+  width: auto;
   -webkit-animation: slide 30s linear infinite;
 }
 
 @-webkit-keyframes slide {
   from { background-position: 0 0; }
-  to { background-position: -400px 0; }
+  to { background-position: -1920px 0; }
 }
 
 
 
 .cloud-bg{
   background-image: url("../../img/bg-rocket.png");
-  background-repeat: no-repeat;
+  background-repeat: repeat-x;
+  background-position: 0px 0px;
   background-size: 1400px 400px;
   -webkit-animation: slide-2 30s linear infinite;
 }
 
 @-webkit-keyframes slide-2 {
   from { background-position: 0 0; }
-  to { background-position: 0 -400px; }
+  to { background-position: 1400px 0; }
 }
 
 
@@ -57,6 +59,8 @@ h4 {
 span{
   @include font(13px, $p4l1, 400, $f-textHeader)
 }
+
+
 
 label{
   @include font(13px,$textSecondary,500, $f-textLabel);
@@ -109,10 +113,27 @@ li > a{
   letter-spacing: 0.26px;
   vertical-align: 10px;
 }
-
+.side-nav{
+  text-transform: uppercase;
+}
 //end
 
+
+
+//???????????????????????//
 @mixin margin-top($move-up:20px){
   margin-top: $move-up;
 }
 
+
+.no-padd{
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+}
+
+
+
+
+.marg-top{
+  @include margin-top(1.78rem);
+}
